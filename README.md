@@ -1,7 +1,7 @@
-# Developing a Flask API and MySQL server and deploy on Kubernetes
+# Developing a Flask RestAPI and MySQL server and deploy on Kubernetes
 
 This repo contains code that 
-1) Develop and deploy a Flask API to add, delete and modify users in the MySQL database on a Kubernetes cluster
+1) Develop and deploy a Flask RestAPI to add, delete and modify users in the MySQL database on a Kubernetes cluster
 2) Attaches a persistent volume to it, so the data remains contained if pods are restarting
 
 ## Getting started
