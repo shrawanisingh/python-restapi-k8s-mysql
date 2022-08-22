@@ -1,4 +1,4 @@
-"""Code for a flask API to Create, Read, Update, Delete users"""
+"""A flask API to Create, Read, Update, Delete users"""
 import os
 from flask import jsonify, request, Flask
 from flaskext.mysql import MySQL
@@ -19,7 +19,7 @@ mysql.init_app(app)
 @app.route("/")
 def index():
     """Function to test the functionality of the API"""
-    return "Hello, world!"
+    return "Hey, there!"
 
 
 @app.route("/create", methods=["POST"])
