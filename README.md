@@ -1,4 +1,4 @@
-# Deploying a Flask API and MySQL server on Kubernetes
+# Developing a Flask API and MySQL server and deploy on Kubernetes
 
 This repo contains code that 
 1) Develop and deploy a Flask API to add, delete and modify users in the MySQL database on a Kubernetes cluster
