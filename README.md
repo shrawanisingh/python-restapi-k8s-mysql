@@ -12,7 +12,7 @@ This repo contains code that
 
 ## Secrets
 `Kubernetes Secrets` can store and manage sensitive information. For this example we will define a password for the
-`root` user of the `MySQL` server using the `Opaque` secret type. For more info: https://kubernetes.io/docs/concepts/configuration/secret/
+`root` user of the `MySQL` server using the `Opaque` secret type.
 
 1. Encode password in your terminal: `echo -n super-secret-passwod | base64`
 2. Add the output to the `flakapi-secrets.yml` file at the `db_root_password` field
